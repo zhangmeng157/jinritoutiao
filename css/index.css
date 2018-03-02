@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 574858 */
+  src: url('https://at.alicdn.com/t/font_574858_2e0o337g5jyvi.eot');
+  src: url('https://at.alicdn.com/t/font_574858_2e0o337g5jyvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_574858_2e0o337g5jyvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_574858_2e0o337g5jyvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_574858_2e0o337g5jyvi.svg#iconfont') format('svg');
+}
+body{
+	font-size: 12px;
+}
+.box{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 999;
+	overflow-y: scroll;
+}
+.box::-webkit-scrollbar{
+	display: none;
+}
+#top{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #d33d3e;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.top_pic{
+	width: 2rem;
+	height: 0.41rem;
+	margin-top: 0.23rem;
+	margin-left: 0.24rem;
+	float: left;
+}
+.top_pic img{
+	width: 2rem;
+	height: 0.41rem;
+}
+.top_sousuo{
+	width: 4.53rem;
+	height: 0.6rem;
+	background-color: #fff;
+	border-radius: 0.03rem;
+	margin-left: 2.5rem;
+	margin-top: 0.12rem;
+}
+.top_sousuo span{
+	font-family: 'iconfont';
+	float: left;
+	margin: 0 0.25rem 0 0.22rem;
+	line-height: 0.6rem;
+	color: #999999;
+	font-size: 0.3rem;
+}
+.top_sousuo p{
+	float: left;
+	/* line-height: 0.6rem; */
+	color: #696969;
+	font-size: 0.3rem;
+	margin-top: 0.12rem;
+}
+#content{
+	width: 7.02rem;
+   	margin: 0 auto;
+}
+.content_top{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: 0.88rem;
+	z-index: 999;	
+}
+.content_top h1{
+	font-size: 0.34rem;
+	color: #000000;
+	float: left;
+	margin-right: 0.45rem;
+
+}
+.content_top .content_text{
+	margin-left: 0.3rem;
+	color: #d33d3e;
+}
+.content_line{
+	width: 0.01rem;
+	height: 0.46rem;
+	background-color: #ccc;
+	float: right;
+	position: absolute;
+	top: 0.23rem;
+	right: 0.83rem;
+}
+.content_kuang{
+	width: 0.83rem;
+	height: 0.87rem;
+	background-color: #efefef;
+	opacity: 0.2;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 999;
+}
+.content_kuang span{
+	font-family: 'iconfont';
+	display: block;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.87rem;
+	color: #000;
+}
+.content_1{
+	width: 100%;
+	height: 3.26rem;
+	border-bottom: 0.01rem solid #ebebeb;
+	border-top: 0.01rem solid #ebebeb; 
+}
+.content_1_juli{
+	margin-top: 1.76rem;
+}
+.content_1 p{
+	width: 100%;
+	height: 0.8rem;
+	background-color: #fff;
+	font-size: 0.32rem;
+	color: #000;
+	margin-top: 0.18rem;
+	margin-bottom: 0.1rem;
+}
+.content_3{
+	width: 100%;
+	height: 1.68rem;
+}
+.content_2{
+	width: 2.3rem;
+	height: 1.68rem;
+	margin-right: 0.06rem;
+	float: left;
+}
+.content_2 img{
+	width: 2.3rem;
+	height: 1.68rem;
+}
+.content_2_1{
+	margin-right: 0;
+}
+.content_3_text{
+	width: 100%;
+	height: 0.6rem;
+}
+.content_3_text h1{
+	font-size: 0.18rem;
+	color: #858585;
+	float: left;
+	font-weight: 400;
+
+}
+.content_3_text .text_2{
+	margin-left: 0.2rem;
+}
+.content_3_text .text_3{
+	margin-left: 0.14rem;
+}
+#bottom{
+	width: 100%;
+	height: .98rem;
+	background-color: #F9F9F9;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.bottom_kuang{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.bottom_title{
+	width: 1.755rem;
+	height: 100%;
+	float: left;
+}
+.bottom_title p{
+	font-family: 'iconfont';
+	font-size:0.36rem;
+	color: #3C3C3C;
+	text-align: center;
+	margin-top: 0.15rem;
+}
+.bottom_title h1{
+	font-size: 0.24rem;
+	color: #818181;
+	margin-top: -0.3rem;
+	text-align: center;
+}
+.bottom_title .title1{
+	color: #FE5859;
+}
